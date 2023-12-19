@@ -2,7 +2,7 @@ import { useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
 function App() {
 
-  
+
 const [CGPA, setCGPA] = useState(0);
 
 const notify = () => toast.error('Please enter a valid CGPA', {
@@ -58,7 +58,8 @@ const resultToast = (e) => toast.error(`Congrats !! Your CGPA is ${e}`, {
 
   return (
     <>
- <div className=" py-6 lg:py-0 lg:hero min-h-screen bg-base-200">
+ <div className=" py-6 lg:py-0 lg:hero min-h-screen bg-base-200 " 
+style={{backgroundImage: 'url(https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg)'}}>
   <div className="hero-content flex-col ">
     <div className=" text-center ">
       <h1 className="lg:text-3xl text-center font-bold">CGPA CALCULATOR-16 PROBIDHAN</h1>
